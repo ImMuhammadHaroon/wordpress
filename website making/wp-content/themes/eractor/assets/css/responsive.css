@@ -1,0 +1,125 @@
+@media(max-width: 767px){
+	.left-area-funfact{
+		margin-bottom: 25px;
+	}
+}	
+
+/*funfact media*/
+@media(max-width: 991px) and (min-width: 768px){
+	.funfact-box{
+		padding: 20px;
+	}
+	.funfact-box .funfact-icon{
+		margin-bottom: 15px;
+	}
+	.funfact-box .funfact-content p{
+		margin-bottom: 10px;
+	}
+	.funfact-box .funfact-content h1{
+		margin-bottom: 0px;
+		font-size: 26px;
+	}
+	.breadcrumb-content{
+		margin-top: 45px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	/** Slider **/
+	.main-slider-3 .item .cover .slider-content h2 {
+		font-size: 26px;
+		/* margin-top: -18px; */
+	}
+	
+}
+	
+@media only screen and (max-width: 991px){
+	/** Header **/
+	.middle-header-3 {
+		display: none;
+	}
+	
+	/** Slider **/
+	.main-slider-3 .item .cover .slider-content h2 {
+		font-size: 35px;
+		margin-top: -18px;
+	}
+	
+	.main-slider-3 .slider-content p {
+		color: #fff;
+		font-size: 16px;
+		margin-bottom: 26px;
+	}
+	.main-slider-3 .item .cover .slider-content {
+		margin-top: 0px;
+    }
+    .main-slider-3 .home-slider .item img{
+    	height: auto;
+    }
+	
+	.main-slider-3.slider-style-1 .item img{
+		height: 600px;
+		object-fit: cover;
+	}
+	
+	.main-slider-3.slider-style-2 .item img{
+		height: 750px;
+    	object-fit: cover;
+	}
+	
+	.main-slider-3.slider-style-3 .item img {
+		/* height: 800px; */
+		object-fit: cover;
+	}
+	
+	.slider-style-3 .item .cover .slider-content{
+		/* margin-top:190px; */
+	}
+}
+
+@media (max-width: 768px) {
+	/** Slider ***/
+	.main-slider-3 .item .cover .slider-content h2 {
+    font-size: 26px;
+	}
+	.main-slider-3 {
+    margin-top: 0px!important;
+	}
+	.main-slider-3 .item .cover .slider-content {
+    margin-top: 0px;
+	}
+}
+
+@media (min-width: 280px) and (max-width: 480px){
+	/** Slider **/
+	
+	.main-slider-3 {
+    margin-top: 0px!important;
+	}
+	.main-slider-3 .slider-content p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 30px;
+	}
+	.main-slider-3 .item .cover .slider-content {
+    margin-top: 0px;
+	}
+	.main-slider-3 .item .cover .slider-content h2 { 
+    margin-top: -37px;
+    }
+}
+
+@media(max-width: 440px){
+	/** Slider **/
+	.main-slider-3 .home-slider .item img{
+		height: 238px;
+	}
+	
+}
+
+@media(max-width: 319px) and (min-width: 280px){
+	/** Slider **/
+	.main-slider-3 .item .cover .slider-content h2{
+		font-size: 20px;
+	}
+}
